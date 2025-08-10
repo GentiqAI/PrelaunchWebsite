@@ -68,11 +68,11 @@ const HeroSection: React.FC = () => {
           {/* Social Proof */}
           <div className="mb-12">
             <p className="text-sm text-blue-200/60 mb-6">Trusted by AI teams at</p>
-            <div className="flex justify-center items-center gap-8 opacity-60">
-              <span className="text-lg">🏦 FinTech</span>
-              <span className="text-lg">🏥 Healthcare</span>
-              <span className="text-lg">🏢 SaaS</span>
-              <span className="text-lg">🏛️ Government</span>
+            <div className="flex justify-center items-center gap-4 sm:gap-8 opacity-60 px-4 sm:px-0">
+              <span className="text-base sm:text-lg">🏦 FinTech</span>
+              <span className="text-base sm:text-lg">🏥 Healthcare</span>
+              <span className="text-base sm:text-lg">🏢 SaaS</span>
+              <span className="text-base sm:text-lg">🏛️ Government</span>
             </div>
           </div>
 

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PrelaunchWebsite/static/css/main.31cb439b.css",
+    "main.js": "/PrelaunchWebsite/static/js/main.7c892807.js",
+    "index.html": "/PrelaunchWebsite/index.html",
+    "main.31cb439b.css.map": "/PrelaunchWebsite/static/css/main.31cb439b.css.map",
+    "main.7c892807.js.map": "/PrelaunchWebsite/static/js/main.7c892807.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31cb439b.css",
+    "static/js/main.7c892807.js"
+  ]
+}

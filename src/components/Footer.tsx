@@ -18,13 +18,13 @@ const Footer: React.FC = () => {
               with the same rigor as software code.
             </p>
             <div className="flex space-x-4">
-              <a href="https://twitter.com/gentiqai" className="text-gray-400 hover:text-white transition-colors" aria-label="Follow us on Twitter">
+              <a href="https://x.com/gentiqai" className="text-gray-400 hover:text-white transition-colors" aria-label="Follow us on Twitter" target="_blank" rel="noopener noreferrer">
                 <Twitter className="w-5 h-5" />
               </a>
-              <a href="https://linkedin.com/company/gentiqai" className="text-gray-400 hover:text-white transition-colors" aria-label="Follow us on LinkedIn">
+              <a href="https://linkedin.com/company/gentiq-ai" className="text-gray-400 hover:text-white transition-colors" aria-label="Follow us on LinkedIn" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="https://github.com/gentiqai" className="text-gray-400 hover:text-white transition-colors" aria-label="View our GitHub">
+              <a href="https://github.com/gentiqai" className="text-gray-400 hover:text-white transition-colors" aria-label="View our GitHub" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5" />
               </a>
               <a href="mailto:gentiqai@gmail.com" className="text-gray-400 hover:text-white transition-colors">
@@ -46,9 +46,9 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><button className="hover:text-white transition-colors text-left" onClick={() => console.log('About page coming soon')}>About</button></li>
+              <li><a href="#solution" className="hover:text-white transition-colors">About</a></li>
               <li><button className="hover:text-white transition-colors text-left" onClick={() => console.log('Blog coming soon')}>Blog</button></li>
-              <li><button className="hover:text-white transition-colors text-left" onClick={() => console.log('Careers page coming soon')}>Careers</button></li>
+              <li><a href="https://www.linkedin.com/company/gentiq-ai/jobs" className="hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">Careers</a></li>
               <li><a href="mailto:gentiqai@gmail.com" className="hover:text-white transition-colors">Contact</a></li>
             </ul>
           </div>

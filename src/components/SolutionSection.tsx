@@ -3,7 +3,7 @@ import { CheckCircle } from 'lucide-react';
 
 const SolutionSection: React.FC = () => {
   return (
-    <section className="py-32 px-6 bg-gradient-to-br from-blue-50 to-teal-50">
+    <section id="solution"className="py-32 px-6 bg-gradient-to-br from-blue-50 to-teal-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-20">
           <div className="inline-flex items-center gap-2 bg-green-50 text-green-600 rounded-full px-4 py-2 mb-6">

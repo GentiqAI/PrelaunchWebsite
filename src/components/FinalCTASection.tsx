@@ -31,7 +31,7 @@ const FinalCTASection: React.FC = () => {
           Limited spots available.
         </p>
 
-        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 max-w-lg mx-auto">
+        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 max-w-lg mx-auto join-beta-button-4">
           <Input
             type="email"
             placeholder="your.email@company.com"

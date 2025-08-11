@@ -58,7 +58,7 @@ const HeroSection: React.FC = () => {
             <Button
               type="submit"
               size="lg"
-              className="h-12 px-8 group"
+              className="h-12 px-8 group join-beta-button-2"
             >
               Join Beta
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />

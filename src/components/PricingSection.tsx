@@ -115,7 +115,7 @@ const PricingSection: React.FC = () => {
               </div>
 
               <Button 
-                className={`w-full ${plan.popular ? 'btn-primary' : 'bg-gray-100 hover:bg-gray-200 text-gray-900'}`}
+                className={`w-full join-beta-button-3 ${plan.popular ? 'btn-primary' : 'bg-gray-100 hover:bg-gray-200 text-gray-900'}`}
                 onClick={() => window.open('https://forms.gle/jHJztmBTZ2LvLQfj6', '_blank')}
               >
                 {plan.cta}

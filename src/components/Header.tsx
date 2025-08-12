@@ -12,8 +12,9 @@ const Header: React.FC = () => {
           <span className="text-xl font-semibold text-gray-900">Gentiq AI</span>
         </div>
 
-        <div className="flex items-center space-x-6 join-beta-button-1">
+        <div className="flex items-center space-x-6">
           <Button
+            className="join-beta-button-1"
             onClick={() => window.open('https://forms.gle/jHJztmBTZ2LvLQfj6', '_blank')}
           >
             Join Beta
